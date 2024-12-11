@@ -1,0 +1,50 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #b87333; /* Copper color */
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: linear-gradient(135deg, #b87333, #5c3b1c);
+    color: white;
+    padding: 4rem 0;
+}
+
+#hero button {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #b87333;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #f7f5f0;
+}
+
+#about {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+#about h2 {
+    color: #5c3b1c;
+}
+
